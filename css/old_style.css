@@ -1,0 +1,67 @@
+
+
+#music h2 {
+    color: #000;
+}
+#music .button-container{
+    border:5px solid #000;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#music .button-container .play{
+    position: relative;
+    display: block;
+}
+
+#music .button-container .play:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+#music .button-container .caption-play {
+    position: relative;
+    display: block;
+    height: 200px;
+    border-bottom: 5px solid #000;
+}
+
+#music .button-container .caption-play i{
+    margin-top: 35px;
+    font-size: 10em;
+}
+
+#music .button-container .next{
+    position: relative;
+    display: block;
+}
+
+#music .button-container .next:hover{
+    background: rgba(0,0,0,0.5);
+}
+#music .button-container .caption-next {
+    position: relative;
+    display: block;
+    height: 95px;
+
+}
+
+#music .button-container .caption-next i{
+    margin-top: 10px;
+    font-size: 5em;
+}
+
+
+.music-section {
+	/*background: rgba(255,255,255,.2);*/
+    background: url(../pics/music-img-cover.jpg) no-repeat bottom center scroll;
+}
+
+
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+}

@@ -1,5 +1,9 @@
-deploy:
-  provider: s3
-  access_key_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
-  bucket: papersortingmood.xyz
+language: ruby
+rvm:
+    - 2.1
+
+install: gem install jekyll -v 2.4.0 && gem install s3_website
+
+script: jekyll build
+
+after_success: s3_website push

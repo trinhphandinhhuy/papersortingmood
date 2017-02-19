@@ -57,7 +57,7 @@ $(document).ready(function() {
 
        widget.toggle();
        widget.getCurrentSound(function(sound) {
-         //alert(sound.title)
+         console.log(sound);
          $('.intro-text').text(sound.title);
        });
      });
